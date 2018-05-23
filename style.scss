@@ -1,12 +1,14 @@
 $mainBgColor: #536DFE; //indygo A200
 $fontColor: #ffffff;
+$fontSize: 17px;
 $checkBtnColor: #F44336; //red 500
 $mainFont: 'Roboto', sans-serif;
-$borderRadius: 3px;
+$borderRadius: 5px;
 
 body{
     background-color: $mainBgColor;
     font-family: $mainFont;
+    font-size: $fontSize;
     color: $fontColor;
 }
 #main-container{
@@ -34,4 +36,9 @@ body{
         }
         
     }
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
 }
