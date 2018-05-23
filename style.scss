@@ -1,0 +1,37 @@
+$mainBgColor: #536DFE; //indygo A200
+$fontColor: #ffffff;
+$checkBtnColor: #F44336; //red 500
+$mainFont: 'Roboto', sans-serif;
+$borderRadius: 3px;
+
+body{
+    background-color: $mainBgColor;
+    font-family: $mainFont;
+    color: $fontColor;
+}
+#main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    #header{
+        text-align: center;
+        
+    }
+    #input-area{
+        .city-input{
+            padding: 5px 10px;
+            border-radius: $borderRadius;
+
+        }
+        .check-btn{
+            border: none;
+            background-color: $checkBtnColor;
+            padding: 5px 10px;
+            color: $fontColor;
+            border-radius: $borderRadius;
+        }
+        
+    }
+}
