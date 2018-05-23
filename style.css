@@ -20,6 +20,9 @@ body {
     padding: 5px 10px;
     color: #ffffff;
     border-radius: 5px; }
+  #main-container #input-area .check-btn:hover {
+    cursor: pointer;
+    background-color: #C62828; }
 
 footer {
   position: absolute;
