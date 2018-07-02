@@ -23,6 +23,8 @@ body {
   #main-container #input-area .check-btn:hover {
     cursor: pointer;
     background-color: #C62828; }
+  #main-container #result-area .result-description {
+    font-weight: bold; }
 
 footer {
   position: absolute;
