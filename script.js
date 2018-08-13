@@ -62,6 +62,15 @@ $(document).ready(function(){
     }
 
     
+    function myEventHandler(e) {
+        var keyCode = e.keyCode;
+        console.log(keyCode )
+        if (keyCode == 13) {
+            watherFetch();
+        }
+    }
+
+    $(window).on('keypress', myEventHandler);
     $checkBtn.on('click', checkWeather);
     $checkBtn.on('click', watherFetch);    
 });

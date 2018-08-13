@@ -42,13 +42,23 @@ body{
             max-height: 75px;
         }
     }
+    .content-area{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     #input-area{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         margin-top: 30px;
         .city-input{
             padding: 5px 10px;
             border: 1px solid $headerBgColor;
             border-radius: $borderRadius;
             font-size: $fontSize;
+            max-width: 90%;
 
         }
         .check-btn{

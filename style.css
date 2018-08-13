@@ -28,13 +28,22 @@ body {
     color: #ffffff; }
     #main-container #header .logo {
       max-height: 75px; }
+  #main-container .content-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
   #main-container #input-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-top: 30px; }
     #main-container #input-area .city-input {
       padding: 5px 10px;
       border: 1px solid #37474f;
       border-radius: 5px;
-      font-size: 21px; }
+      font-size: 21px;
+      max-width: 90%; }
     #main-container #input-area .check-btn {
       border: none;
       background-color: #F44336;
