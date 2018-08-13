@@ -7,29 +7,33 @@
     <title>Pogoda - teraz</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
     <div id="main-container">
         <header id="header">
-            <h1>Simple weather checker</h1>
+            <img class="logo" src="img/logo.png" alt="logo">
+            <h1>
+                Pogoda na dziś
+            </h1>
         </header>
         <main>
             <div id="input-area">
-                <input class="city-input" type="text" placeholder="Enter city name...">
+                <input class="city-input" type="text" placeholder="Wpisz nazwę miasta...">
                 <button class="check-btn">Check</button>
             </div>
             <div id="result-area">
                 
                 <p><span class="result-description">Dla miasta:</span> <span class="city-name"> </span></p>
                 <p><span class="result-description">Temp: </span> <span class="city-temp"> </span> &degC</p>
-                <p><span class="result-description">Ciśnienie: </span><span class="city-pressure"> </span></p>
+                <p><span class="result-description">Ciśnienie: </span><span class="city-pressure"> </span> hPa</p>
                 <p><span class="result-description">Zachmurzenie: </span><span class="city-sky"> </span> <span class="city-sky-icon"></span></p>
 
             </div>
         </main> 
     </div>
     <footer>
-        <p>created by Qki</p>
+        <p>created by Łukasz Sztormowski &copy 2018</p>
     </footer>
     <script
 			  src="https://code.jquery.com/jquery-3.3.1.min.js"
